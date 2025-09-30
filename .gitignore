@@ -1,0 +1,23 @@
+# Coisas que não quero no git - aprendi na marra depois de commitar arquivo desnecessário
+*.class
+*.jar
+bin/
+build/
+.target/
+
+# Logs - sempre geram conflito
+*.log
+logs/
+
+# Configurações de IDE
+.vscode/
+.idea/
+*.iml
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# Meus backups pessoais
+backup/
+temp/
